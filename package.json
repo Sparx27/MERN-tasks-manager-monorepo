@@ -1,0 +1,17 @@
+{
+  "name": "sparx-mern-tasks-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "npm run api --prefix api",
+    "app": "npm run start --prefix app",
+    "both": "concurrently \"npm run api\" \"npm run app\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "7.6.0"
+  }
+}
